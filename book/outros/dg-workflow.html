@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="../introducao.html">Introdução</a></li><li class="chapter-item "><a href="../editores-de-texto/editores-de-texto.html">Editores de Texto</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../editores-de-texto/vs-code.html">Visual Studio Code</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../editores-de-texto/vscode-extensoes.html">Extensões do Visual Studio Code</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../outros/outros.html">Outros</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../outros/dg-workflow.html" class="active">Digital Garden Workflow</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="../introducao.html">Introdução</a></li><li class="chapter-item "><a href="../compartilhando/compartilhando.html">Compartilhando</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../compartilhando/o-que-consumo.html">O Que Consumo</a></li></ol></li><li class="chapter-item "><a href="../editores-de-texto/editores-de-texto.html">Editores de Texto</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../editores-de-texto/vs-code.html">Visual Studio Code</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../editores-de-texto/vscode-extensoes.html">Extensões do Visual Studio Code</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../outros/outros.html">Outros</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../outros/dg-workflow.html" class="active">Digital Garden Workflow</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -169,6 +169,11 @@
 <p>Todo o meu Digital Garden pode ser encontrado dentro de uma pasta no <a href="https://github.com/lucasjoviniano/garden/tree/main/src">Github</a>. A pasta é compasta de várias subpastas.</p>
 <p>A Wiki é publicada na forma de um <a href="https://rust-lang.github.io/mdBook/">mdBook</a>. Toda a estrutura da sidebar pode ser vista no arquivo <a href="https://github.com/lucasjoviniano/garden/blob/main/src/SUMMARY.md">SUMMARY.md</a>.</p>
 <p>As edições feitas no computador são realizadas usando o <a href="../editores-de-texto/vs-code.html">Visual Studio Code</a></p>
+<h2 id="outras-wikis-que-eu-gosto"><a class="header" href="#outras-wikis-que-eu-gosto">Outras Wikis Que eu Gosto</a></h2>
+<ul>
+<li><a href="https://wiki.nikitavoloboev.xyz">Everything I Know</a></li>
+<li><a href="https://tomcritchlow.com/wiki/">Tom Critchlow</a></li>
+</ul>
 
                     </main>
 
@@ -199,6 +204,21 @@
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         

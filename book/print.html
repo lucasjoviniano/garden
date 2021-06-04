@@ -97,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="introducao.html">Introdução</a></li><li class="chapter-item "><a href="editores-de-texto/editores-de-texto.html">Editores de Texto</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="editores-de-texto/vs-code.html">Visual Studio Code</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="editores-de-texto/vscode-extensoes.html">Extensões do Visual Studio Code</a></li></ol></li></ol></li><li class="chapter-item "><a href="outros/outros.html">Outros</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="outros/dg-workflow.html">Digital Garden Workflow</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="introducao.html">Introdução</a></li><li class="chapter-item "><a href="compartilhando/compartilhando.html">Compartilhando</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="compartilhando/o-que-consumo.html">O Que Consumo</a></li></ol></li><li class="chapter-item "><a href="editores-de-texto/editores-de-texto.html">Editores de Texto</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="editores-de-texto/vs-code.html">Visual Studio Code</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="editores-de-texto/vscode-extensoes.html">Extensões do Visual Studio Code</a></li></ol></li></ol></li><li class="chapter-item "><a href="outros/outros.html">Outros</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="outros/dg-workflow.html">Digital Garden Workflow</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -173,6 +173,20 @@
 <h2 id="porque-fazer-isso"><a class="header" href="#porque-fazer-isso">Porque fazer isso?</a></h2>
 <p>Já tentei o estilo de blog tradicional, onde tudo funciona com um botão de <strong>publicar</strong>. Infelizmente, não funcionou pra mim.</p>
 <p>Apesar disso, gosto de fazer anotações de quse tudo, pois me ajudam a entender os mais diversos assuntos.</p>
+<p>Se quiser entender mais de como essa wiki funciona, descrevo tudo <a href="./outros/dg-workflow.html">aqui</a></p>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="compartilhando"><a class="header" href="#compartilhando">Compartilhando</a></h1>
+<p>Lugares na internet onde compartilho as coisas que faço/consumo/tenho.</p>
+<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="o-que-consumo"><a class="header" href="#o-que-consumo">O que Consumo</a></h1>
+<p>Lista de coisas que eu uso para registrar o que eu consumo (normalmente conteúdo online).</p>
+<h2 id="filmes"><a class="header" href="#filmes">Filmes</a></h2>
+<ul>
+<li><a href="https://letterboxd.com/lucasjoviniano/">Letterboxd</a>: Filmes que quero assistir e filmes que eu vi. Alguns contém reviews engraçadinhas (não costumo fazer reviews sérias). Além disso, tem algumas listas de filmes.</li>
+</ul>
+<h2 id="música"><a class="header" href="#música">Música</a></h2>
+<ul>
+<li><a href="https://open.spotify.com/user/lucasjoviniano/playlists">Playlists</a>: Minhas playlists que eu compartilho no Spotify.</li>
+<li><a href="https://www.last.fm/user/lucasjoviniano">Last.fm</a>: Aqui ficam as músicas que já ouvi, o scrobble é feito automaticamente do Spotify, então músicas que escuto em outras plataformas não aparecem.</li>
+</ul>
 <div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="editores-de-texto"><a class="header" href="#editores-de-texto">Editores de Texto</a></h1>
 <p>Sempre prefiro usar editores de texto para programar, por serem muito mais leves que IDEs.</p>
 <p>Os que eu mais uso são o <a href="editores-de-texto/./vs-code.html">Visual Studio Code</a> e o Neovim.</p>
@@ -247,6 +261,11 @@
 <p>Todo o meu Digital Garden pode ser encontrado dentro de uma pasta no <a href="https://github.com/lucasjoviniano/garden/tree/main/src">Github</a>. A pasta é compasta de várias subpastas.</p>
 <p>A Wiki é publicada na forma de um <a href="https://rust-lang.github.io/mdBook/">mdBook</a>. Toda a estrutura da sidebar pode ser vista no arquivo <a href="https://github.com/lucasjoviniano/garden/blob/main/src/SUMMARY.md">SUMMARY.md</a>.</p>
 <p>As edições feitas no computador são realizadas usando o <a href="outros/../editores-de-texto/vs-code.html">Visual Studio Code</a></p>
+<h2 id="outras-wikis-que-eu-gosto"><a class="header" href="#outras-wikis-que-eu-gosto">Outras Wikis Que eu Gosto</a></h2>
+<ul>
+<li><a href="https://wiki.nikitavoloboev.xyz">Everything I Know</a></li>
+<li><a href="https://tomcritchlow.com/wiki/">Tom Critchlow</a></li>
+</ul>
 
                     </main>
 
@@ -269,6 +288,21 @@
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         

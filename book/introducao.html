@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="introducao.html" class="active">Introdução</a></li><li class="chapter-item "><a href="editores-de-texto/editores-de-texto.html">Editores de Texto</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="editores-de-texto/vs-code.html">Visual Studio Code</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="editores-de-texto/vscode-extensoes.html">Extensões do Visual Studio Code</a></li></ol></li></ol></li><li class="chapter-item "><a href="outros/outros.html">Outros</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="outros/dg-workflow.html">Digital Garden Workflow</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="introducao.html" class="active">Introdução</a></li><li class="chapter-item "><a href="compartilhando/compartilhando.html">Compartilhando</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="compartilhando/o-que-consumo.html">O Que Consumo</a></li></ol></li><li class="chapter-item "><a href="editores-de-texto/editores-de-texto.html">Editores de Texto</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="editores-de-texto/vs-code.html">Visual Studio Code</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="editores-de-texto/vscode-extensoes.html">Extensões do Visual Studio Code</a></li></ol></li></ol></li><li class="chapter-item "><a href="outros/outros.html">Outros</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="outros/dg-workflow.html">Digital Garden Workflow</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -171,6 +171,7 @@
 <h2 id="porque-fazer-isso"><a class="header" href="#porque-fazer-isso">Porque fazer isso?</a></h2>
 <p>Já tentei o estilo de blog tradicional, onde tudo funciona com um botão de <strong>publicar</strong>. Infelizmente, não funcionou pra mim.</p>
 <p>Apesar disso, gosto de fazer anotações de quse tudo, pois me ajudam a entender os mais diversos assuntos.</p>
+<p>Se quiser entender mais de como essa wiki funciona, descrevo tudo <a href="./outros/dg-workflow.html">aqui</a></p>
 
                     </main>
 
@@ -179,7 +180,7 @@
                         
 
                         
-                            <a rel="next" href="editores-de-texto/editores-de-texto.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="compartilhando/compartilhando.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -193,7 +194,7 @@
                 
 
                 
-                    <a rel="next" href="editores-de-texto/editores-de-texto.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="compartilhando/compartilhando.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
@@ -201,6 +202,21 @@
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
