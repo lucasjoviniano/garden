@@ -1,0 +1,12 @@
+[book]
+authors = ["Lucas Joviniano"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Digital Garden"
+
+[output.html]
+no-section-label = true
+
+[output.html.fold]
+enable = true
