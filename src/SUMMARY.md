@@ -10,3 +10,6 @@
         - [Extensões do Visual Studio Code](./editores-de-texto/vscode-extensoes.md)
 - [Outros](./outros/outros.md)
     - [Digital Garden Workflow](./outros/dg-workflow.md)
+
+- [Linguagens de Programação](./linguagens-de-programacao/linguagens-de-programacao.md)
+    - [Rust](./linguagens-de-programacao/rust.md)
