@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1af7a9f2fa0beb33",
+        "id": "d3c2e80a1bd3d34b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "example-dir/engenharia-de-software.md",
+            "file": "graduacao/engenharia-de-software.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e9512343afa557c9",
@@ -68,13 +69,25 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "example-dir/engenharia-de-software.md",
+                "file": "graduacao/engenharia-de-software.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "be757605a3e4ea80",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "graduacao/engenharia-de-software.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -86,8 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1af7a9f2fa0beb33",
+  "active": "d3c2e80a1bd3d34b",
   "lastOpenFiles": [
-    "example-dir/Untitled.md"
+    "graduacao/engenharia-de-software.md",
+    "tarefas.md",
+    "pages/contents.md",
+    "journals/2021_08_24.md",
+    "livros/Redes de Computadores - Andrew Stuart Tanenbaum.md",
+    "ufv/index.md",
+    "hello.md",
+    "OSLU.md",
+    "Untitled.md",
+    "graduacao/Redes de Computadores.md"
   ]
 }
