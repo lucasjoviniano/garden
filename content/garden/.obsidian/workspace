@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "d3c2e80a1bd3d34b",
+        "id": "fea29981bffa8154",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "graduacao/engenharia-de-software.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e9512343afa557c9",
@@ -99,7 +98,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d3c2e80a1bd3d34b",
+  "active": "fea29981bffa8154",
   "lastOpenFiles": [
     "graduacao/engenharia-de-software.md",
     "tarefas.md",

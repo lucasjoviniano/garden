@@ -294,3 +294,55 @@ Descobre situações de comportamentos indesejados do sistema
 	- Pode fazer acesso ao banco de dados da aplicação
 	- Alguns atores definem a caixa-cinza como o **teste de integração**
 	- O sistema é visto até o nível de módulo, mas o interior dos módulos não são vistos
+
+## Ganularidade dos Tipos de Teste
+
+![](../assets/Pasted%20image%2020210829131518.png)
+
+### Testes Unitários
+
+- Testes automatizados de pequenas unidades do sistema (normalmente, classes ou funções)
+- Quando a unidade testada é um objeto, devem ser cobertas as reguintes características:
+	- Testar todos os métodos
+	- Definir e verificar o valor de todos os atributos
+	- Colocar o objeto em todos os estados possíveis
+		- Diagrama de estado UML
+
+- Pode ser caixa preta ou caixa branca
+
+#### Escolha de Casos de Teste
+
+Devem ser escritos dois tipos de casos de teste por unidade:
+- **Refletir o funcionamento normal**: Mostrar que o comportamento testado é funcional em circunstâncias comuns
+- **Entradas Anormais:** Mostrar que sistema processa entrada anormais sem falhar
+	- Ex.: Valores negativos, valores muito grandes, tipos de valores diferentes..stc
+		- Testes baseados em diretrizes
+		- Testes de partição de equivalência
+
+#### Anatomia
+
+- Cada classe testada possui uma classe de teste. Por convenção o seu nome deve acabar com Test
+- Anotação @Test
+- Nome deve começão com a palavra *test*
+- **Fixture**: Contexto do teste
+- Chamada do método sob teste
+- **Assert**: Verifica se o resultado é aquele esperado
+- **@Before**: Executa antes dos métodos *@Test*
+- Cada método executa em uma instância diferente da classe de teste
+
+#### Benefícios
+- Detectar bugs na fase de desenvolvimento
+- Documentação: É possível entender o comportamento de um código por meio dos testes e é porta de entrada para novos desenvolvedores de um código
+
+#### Princípios FIRST
+
+- Rápidos
+- Independentes (ordem não é importante)
+- Determinísticos (Repetíveis)
+- Auto - verificáveis
+- Timely (escritos o quanto antes)
+
+#### Cobertura
+
+(número de comandos executados pelo teste) /( total de comandos do programa)
+- O ideal é pelo menos 60%
